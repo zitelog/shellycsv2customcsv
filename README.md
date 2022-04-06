@@ -10,8 +10,6 @@
 ```
 usage: shellycsv2customcsv [-h] [--output-path] shellycsvfile
 
-usage: shellycsv2customcsv [-h] [--output-path] shellycsvfile
-
 Parse the CSV file produced by the shelly device and save the result in shelly_custom.csv
 
 positional arguments:
@@ -25,6 +23,6 @@ optional arguments:
 ### Example
 
 ```
-$ python py shellycsv2customcsv.py download.csv --output-path ~/Desktop
+$ python shellycsv2customcsv.py download.csv --output-path ~/Desktop
 ```
 It will create in the output folder (`~/Desktop/`) the `shelly_custom.csv` file
